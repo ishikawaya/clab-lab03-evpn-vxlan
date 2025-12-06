@@ -133,3 +133,21 @@
 2025/12/06 11:26:31 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for IPv6 Unicast from eth1 in vrf default
 2025/12/06 11:26:31 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for IPv4 Unicast from eth1 in vrf default
 2025/12/06 11:26:31 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for L2VPN EVPN from eth1 in vrf default
+2025/12/06 11:52:25 LDP: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:52:25 LDP: [G6NKK-8C6DV] end_config: VTY:0x7ee8855d8610, pending SET-CFG: 0
+2025/12/06 11:52:25 OSPF: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:52:25 OSPF: [G6NKK-8C6DV] end_config: VTY:0x753f743d0060, pending SET-CFG: 0
+2025/12/06 11:52:25 OSPF6: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:52:25 OSPF6: [G6NKK-8C6DV] end_config: VTY:0x7ae89f46e050, pending SET-CFG: 0
+2025/12/06 11:52:25 ISIS: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:52:25 ISIS: [G6NKK-8C6DV] end_config: VTY:0x70a62ba591b0, pending SET-CFG: 0
+2025/12/06 11:52:25 BGP: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:52:25 BGP: [G6NKK-8C6DV] end_config: VTY:0x7ca7c148d0b0, pending SET-CFG: 0
+2025/12/06 11:52:25 PATH: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:52:25 PATH: [G6NKK-8C6DV] end_config: VTY:0x72217a8f1180, pending SET-CFG: 0
+2025/12/06 11:52:25 PATH: [NN4XW-E4M3V] IPv4 Router Id updated for VRF 0: 172.16.0.5
+2025/12/06 11:52:25 PATH: [NN4XW-E4M3V] IPv6 Router Id updated for VRF 0: fc00:0:5::1
+2025/12/06 11:52:25 ZEBRA: [YDG3W-JND95] FD Limit set: 1048576 is stupidly large.  Is this what you intended?  Consider using --limit-fds also limiting size to 100000
+2025/12/06 11:52:25 ZEBRA: [V98V0-MTWPF] client 84 says hello and bids fair to announce only bgp routes vrf=0
+2025/12/06 11:52:58 ZEBRA: [VQK5M-9G0V1][EC 100663315] CPU starvation: {(event *)0x7ffdf1f57038 arg=0x7a1b2bebd910 ready               wheel_timer_thread() &wheel->timer from lib/wheel.c:50} getting executed 4258ms late, warning threshold 4000ms. System load: 2.33, 0.73, 0.25
+2025/12/06 11:53:12 ZEBRA: [VQK5M-9G0V1][EC 100663315] CPU starvation: {(event *)0x7ffdf1f57038 arg=0x7a1b2bebd910 ready               wheel_timer_thread() &wheel->timer from lib/wheel.c:50} getting executed 4081ms late, warning threshold 4000ms. System load: 1.81, 0.70, 0.25

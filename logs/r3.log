@@ -166,3 +166,19 @@
 2025/12/06 11:43:55 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for IPv6 Unicast from eth2 in vrf default
 2025/12/06 11:43:55 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for IPv4 Unicast from eth2 in vrf default
 2025/12/06 11:43:55 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for L2VPN EVPN from eth2 in vrf default
+2025/12/06 11:52:25 LDP: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:52:25 LDP: [G6NKK-8C6DV] end_config: VTY:0x70872d434610, pending SET-CFG: 0
+2025/12/06 11:52:25 OSPF6: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:52:25 OSPF6: [G6NKK-8C6DV] end_config: VTY:0x744d8e8ee050, pending SET-CFG: 0
+2025/12/06 11:52:25 OSPF: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:52:25 OSPF: [G6NKK-8C6DV] end_config: VTY:0x765d13660060, pending SET-CFG: 0
+2025/12/06 11:52:25 ISIS: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:52:25 ISIS: [G6NKK-8C6DV] end_config: VTY:0x70701460d1b0, pending SET-CFG: 0
+2025/12/06 11:52:25 BGP: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:52:25 BGP: [G6NKK-8C6DV] end_config: VTY:0x7202fe2390b0, pending SET-CFG: 0
+2025/12/06 11:52:25 PATH: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:52:25 PATH: [G6NKK-8C6DV] end_config: VTY:0x737a38727180, pending SET-CFG: 0
+2025/12/06 11:52:25 PATH: [NN4XW-E4M3V] IPv4 Router Id updated for VRF 0: 172.16.0.3
+2025/12/06 11:52:25 PATH: [NN4XW-E4M3V] IPv6 Router Id updated for VRF 0: fc00:0:3::1
+2025/12/06 11:52:25 ZEBRA: [YDG3W-JND95] FD Limit set: 1048576 is stupidly large.  Is this what you intended?  Consider using --limit-fds also limiting size to 100000
+2025/12/06 11:52:25 ZEBRA: [V98V0-MTWPF] client 84 says hello and bids fair to announce only bgp routes vrf=0

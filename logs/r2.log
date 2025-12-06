@@ -175,3 +175,20 @@
 2025/12/06 11:43:55 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for IPv6 Unicast from eth2 in vrf default
 2025/12/06 11:43:55 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for IPv4 Unicast from eth2 in vrf default
 2025/12/06 11:43:55 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for L2VPN EVPN from eth2 in vrf default
+2025/12/06 11:52:25 OSPF: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:52:25 OSPF: [G6NKK-8C6DV] end_config: VTY:0x7b98f4354060, pending SET-CFG: 0
+2025/12/06 11:52:25 LDP: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:52:25 LDP: [G6NKK-8C6DV] end_config: VTY:0x70f29d439610, pending SET-CFG: 0
+2025/12/06 11:52:25 OSPF6: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:52:25 OSPF6: [G6NKK-8C6DV] end_config: VTY:0x7b8afcd06050, pending SET-CFG: 0
+2025/12/06 11:52:25 ISIS: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:52:25 ISIS: [G6NKK-8C6DV] end_config: VTY:0x77b89381c1b0, pending SET-CFG: 0
+2025/12/06 11:52:25 PATH: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:52:25 PATH: [G6NKK-8C6DV] end_config: VTY:0x715c05d25180, pending SET-CFG: 0
+2025/12/06 11:52:25 STATIC: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:52:25 STATIC: [G6NKK-8C6DV] end_config: VTY:0x796168aaa0c0, pending SET-CFG: 0
+2025/12/06 11:52:25 BGP: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:52:25 BGP: [G6NKK-8C6DV] end_config: VTY:0x72c8d50d20b0, pending SET-CFG: 0
+2025/12/06 11:52:25 ZEBRA: [YDG3W-JND95] FD Limit set: 1048576 is stupidly large.  Is this what you intended?  Consider using --limit-fds also limiting size to 100000
+2025/12/06 11:52:25 ZEBRA: [V98V0-MTWPF] client 84 says hello and bids fair to announce only bgp routes vrf=0
+2025/12/06 11:53:23 ZEBRA: [VQK5M-9G0V1][EC 100663315] CPU starvation: {(event *)0x7ffca6aa1f08 arg=0x790974528910 ready               wheel_timer_thread() &wheel->timer from lib/wheel.c:50} getting executed 5072ms late, warning threshold 4000ms. System load: 1.54, 0.67, 0.25
