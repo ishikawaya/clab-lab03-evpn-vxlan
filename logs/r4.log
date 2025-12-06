@@ -1,0 +1,135 @@
+2025/12/06 08:28:21 ZEBRA: [V98V0-MTWPF] client 82 says hello and bids fair to announce only bgp routes vrf=0
+2025/12/06 08:28:21 ZEBRA: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:28:21 ZEBRA: [G6NKK-8C6DV] end_config: VTY:0x74118115e610, pending SET-CFG: 0
+2025/12/06 08:28:21 OSPF: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:28:21 OSPF: [G6NKK-8C6DV] end_config: VTY:0x7040fb6fa070, pending SET-CFG: 0
+2025/12/06 08:28:21 OSPF6: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:28:21 OSPF6: [G6NKK-8C6DV] end_config: VTY:0x74d28e4be050, pending SET-CFG: 0
+2025/12/06 08:28:21 BGP: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:28:21 BGP: [G6NKK-8C6DV] end_config: VTY:0x79bba39a40b0, pending SET-CFG: 0
+2025/12/06 08:28:21 STATIC: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:28:21 STATIC: [G6NKK-8C6DV] end_config: VTY:0x7933b79530d0, pending SET-CFG: 0
+2025/12/06 08:28:21 ISIS: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:28:21 ISIS: [G6NKK-8C6DV] end_config: VTY:0x7a92f3c361b0, pending SET-CFG: 0
+2025/12/06 08:28:21 LDP: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:28:21 LDP: [G6NKK-8C6DV] end_config: VTY:0x7e85d4a52610, pending SET-CFG: 0
+2025/12/06 08:28:21 PATH: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:28:21 PATH: [G6NKK-8C6DV] end_config: VTY:0x790046b73190, pending SET-CFG: 0
+2025/12/06 08:28:21 PATH: [NN4XW-E4M3V] IPv4 Router Id updated for VRF 0: 192.168.20.4
+2025/12/06 08:28:22 PATH: [NN4XW-E4M3V] IPv4 Router Id updated for VRF 0: 172.16.0.4
+2025/12/06 08:28:36 ZEBRA: [WPPMZ-G9797] if_zebra_speed_update: br20 old speed: 0 new speed: 10000
+2025/12/06 08:29:23 OSPF: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:29:23 OSPF: [G6NKK-8C6DV] end_config: VTY:0x76495842f070, pending SET-CFG: 0
+2025/12/06 08:29:23 OSPF6: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:29:23 OSPF6: [G6NKK-8C6DV] end_config: VTY:0x7dd84ce37050, pending SET-CFG: 0
+2025/12/06 08:29:23 LDP: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:29:23 LDP: [G6NKK-8C6DV] end_config: VTY:0x7e58b9934610, pending SET-CFG: 0
+2025/12/06 08:29:23 BGP: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:29:23 BGP: [G6NKK-8C6DV] end_config: VTY:0x7da7e58d20b0, pending SET-CFG: 0
+2025/12/06 08:29:23 ISIS: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:29:23 ISIS: [G6NKK-8C6DV] end_config: VTY:0x71f784d7e1b0, pending SET-CFG: 0
+2025/12/06 08:29:23 STATIC: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:29:23 STATIC: [G6NKK-8C6DV] end_config: VTY:0x739478bb6040, pending SET-CFG: 0
+2025/12/06 08:29:23 PATH: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:29:23 PATH: [G6NKK-8C6DV] end_config: VTY:0x75bcddedb190, pending SET-CFG: 0
+2025/12/06 08:29:24 ZEBRA: [YDG3W-JND95] FD Limit set: 1048576 is stupidly large.  Is this what you intended?  Consider using --limit-fds also limiting size to 100000
+2025/12/06 08:29:24 ZEBRA: [V98V0-MTWPF] client 84 says hello and bids fair to announce only bgp routes vrf=0
+2025/12/06 08:29:38 ZEBRA: [WPPMZ-G9797] if_zebra_speed_update: eth0 old speed: 0 new speed: 10000
+2025/12/06 08:29:38 ZEBRA: [WPPMZ-G9797] if_zebra_speed_update: br20 old speed: 0 new speed: 10000
+2025/12/06 10:48:55 ZEBRA: [MF0JM-QXVXH] Intf br20(4) bridge changed MAC address
+2025/12/06 10:49:06 PATH: [NN4XW-E4M3V] IPv6 Router Id updated for VRF 0: fc00:0:4::1
+2025/12/06 10:49:06 BGP: [MXM8H-B025K][EC 33554452] eth1 [Error] Configured AFI/SAFIs do not overlap with received MP capabilities
+2025/12/06 10:49:11 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for IPv4 Unicast from eth1 in vrf default
+2025/12/06 10:49:11 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for IPv6 Unicast from eth1 in vrf default
+2025/12/06 10:49:11 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for L2VPN EVPN from eth1 in vrf default
+2025/12/06 10:50:43 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for IPv4 Unicast from eth2 in vrf default
+2025/12/06 10:50:43 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for IPv6 Unicast from eth2 in vrf default
+2025/12/06 10:50:43 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for L2VPN EVPN from eth2 in vrf default
+2025/12/06 10:55:26 ZEBRA: [WPPMZ-G9797] if_zebra_speed_update: br20 old speed: 10000 new speed: 0
+2025/12/06 10:55:26 ZEBRA: [SGA3S-A2CXK][EC 4043309128] default:0: IF 66 RA disable client bgp - interface unknown
+2025/12/06 10:55:26 ZEBRA: [SWQK6-6JY63][EC 4043309074] 0:254:fc00:0:3::1/128: Failed to enqueue dataplane install
+2025/12/06 10:55:26 ZEBRA: [SWQK6-6JY63][EC 4043309074] 0:254:fc00:0:2::1/128: Failed to enqueue dataplane install
+2025/12/06 10:55:26 ZEBRA: [SWQK6-6JY63][EC 4043309074] 0:254:fc00:0:1::1/128: Failed to enqueue dataplane install
+2025/12/06 10:55:26 ZEBRA: [SGA3S-A2CXK][EC 4043309128] default:0: IF 81 RA disable client bgp - interface unknown
+2025/12/06 10:55:26 ZEBRA: [SWQK6-6JY63][EC 4043309074] 0:254:fc00:0:6::1/128: Failed to enqueue dataplane install
+2025/12/06 10:55:26 ZEBRA: [SWQK6-6JY63][EC 4043309074] 0:254:fc00:0:5::1/128: Failed to enqueue dataplane install
+2025/12/06 10:57:25 OSPF: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 10:57:25 OSPF: [G6NKK-8C6DV] end_config: VTY:0x7b49fd0b3070, pending SET-CFG: 0
+2025/12/06 10:57:25 LDP: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 10:57:25 LDP: [G6NKK-8C6DV] end_config: VTY:0x78027d441610, pending SET-CFG: 0
+2025/12/06 10:57:25 BGP: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 10:57:25 BGP: [G6NKK-8C6DV] end_config: VTY:0x7a4c0d2a90b0, pending SET-CFG: 0
+2025/12/06 10:57:25 ISIS: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 10:57:25 ISIS: [G6NKK-8C6DV] end_config: VTY:0x741ac06e81b0, pending SET-CFG: 0
+2025/12/06 10:57:25 STATIC: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 10:57:25 STATIC: [G6NKK-8C6DV] end_config: VTY:0x78cac554e0c0, pending SET-CFG: 0
+2025/12/06 10:57:25 OSPF6: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 10:57:25 OSPF6: [G6NKK-8C6DV] end_config: VTY:0x72dbdfd16050, pending SET-CFG: 0
+2025/12/06 10:57:25 PATH: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 10:57:25 PATH: [G6NKK-8C6DV] end_config: VTY:0x7e320ac99190, pending SET-CFG: 0
+2025/12/06 10:57:26 ZEBRA: [YDG3W-JND95] FD Limit set: 1048576 is stupidly large.  Is this what you intended?  Consider using --limit-fds also limiting size to 100000
+2025/12/06 10:57:26 ZEBRA: [V98V0-MTWPF] client 84 says hello and bids fair to announce only bgp routes vrf=0
+2025/12/06 10:57:40 ZEBRA: [WPPMZ-G9797] if_zebra_speed_update: br20 old speed: 0 new speed: 10000
+2025/12/06 10:59:49 PATH: [NN4XW-E4M3V] IPv6 Router Id updated for VRF 0: fc00:0:4::1
+2025/12/06 11:00:09 BGP: [H4B4J-DCW2R][EC 33554455] eth1 [Error] bgp_read_packet error: Connection reset by peer
+2025/12/06 11:00:09 BGP: [W2RX6-XPYWY] eth1 AddPath Capability length error: got 0, expected at least 4
+2025/12/06 11:00:09 BGP: [MVZKX-EG443][EC 33554452] bgp_process_packet: BGP OPEN receipt failed for peer: eth1
+2025/12/06 11:00:12 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for IPv6 Unicast from eth1 in vrf default
+2025/12/06 11:00:12 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for L2VPN EVPN from eth1 in vrf default
+2025/12/06 11:15:25 ZEBRA: [WPPMZ-G9797] if_zebra_speed_update: br20 old speed: 10000 new speed: 0
+2025/12/06 11:15:25 ZEBRA: [SGA3S-A2CXK][EC 4043309128] default:0: IF 130 RA disable client bgp - interface unknown
+2025/12/06 11:15:25 ZEBRA: [SWQK6-6JY63][EC 4043309074] 0:254:fc00:0:2::1/128: Failed to enqueue dataplane install
+2025/12/06 11:15:25 ZEBRA: [SWQK6-6JY63][EC 4043309074] 0:254:fc00:0:1::1/128: Failed to enqueue dataplane install
+2025/12/06 11:15:25 ZEBRA: [SWQK6-6JY63][EC 4043309074] 0:254:fc00:0:3::1/128: Failed to enqueue dataplane install
+2025/12/06 11:15:25 ZEBRA: [SGA3S-A2CXK][EC 4043309128] default:0: IF 119 RA disable client bgp - interface unknown
+2025/12/06 11:18:18 OSPF: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:18:18 OSPF: [G6NKK-8C6DV] end_config: VTY:0x7fb565bd0070, pending SET-CFG: 0
+2025/12/06 11:18:18 BGP: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:18:18 BGP: [G6NKK-8C6DV] end_config: VTY:0x738bd53660b0, pending SET-CFG: 0
+2025/12/06 11:18:18 OSPF6: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:01
+2025/12/06 11:18:18 OSPF6: [G6NKK-8C6DV] end_config: VTY:0x77733c13a050, pending SET-CFG: 0
+2025/12/06 11:18:18 LDP: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:18:18 LDP: [G6NKK-8C6DV] end_config: VTY:0x7a0dc7f6b610, pending SET-CFG: 0
+2025/12/06 11:18:19 STATIC: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:18:19 STATIC: [G6NKK-8C6DV] end_config: VTY:0x76be48ce40c0, pending SET-CFG: 0
+2025/12/06 11:18:19 ZEBRA: [MF0JM-QXVXH] Intf br20(4) bridge changed MAC address
+2025/12/06 11:18:19 PATH: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:18:19 PATH: [G6NKK-8C6DV] end_config: VTY:0x79ccdfe0a190, pending SET-CFG: 0
+2025/12/06 11:18:19 ISIS: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:18:19 ISIS: [G6NKK-8C6DV] end_config: VTY:0x71bbaa0b01b0, pending SET-CFG: 0
+2025/12/06 11:18:19 ZEBRA: [YDG3W-JND95] FD Limit set: 1048576 is stupidly large.  Is this what you intended?  Consider using --limit-fds also limiting size to 100000
+2025/12/06 11:18:19 ZEBRA: [V98V0-MTWPF] client 84 says hello and bids fair to announce only bgp routes vrf=0
+2025/12/06 11:18:19 PATH: [NN4XW-E4M3V] IPv4 Router Id updated for VRF 0: 192.168.20.4
+2025/12/06 11:18:19 PATH: [NN4XW-E4M3V] IPv4 Router Id updated for VRF 0: 172.16.0.4
+2025/12/06 11:18:19 ZEBRA: [MF0JM-QXVXH] Intf br20(4) bridge changed MAC address
+2025/12/06 11:18:33 ZEBRA: [WPPMZ-G9797] if_zebra_speed_update: br20 old speed: 0 new speed: 10000
+2025/12/06 11:23:52 ZEBRA: [WPPMZ-G9797] if_zebra_speed_update: br20 old speed: 10000 new speed: 0
+2025/12/06 11:23:58 OSPF6: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:23:58 OSPF6: [G6NKK-8C6DV] end_config: VTY:0x715bd6b54050, pending SET-CFG: 0
+2025/12/06 11:23:58 BGP: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:23:58 BGP: [G6NKK-8C6DV] end_config: VTY:0x76241ddd00b0, pending SET-CFG: 0
+2025/12/06 11:23:58 OSPF: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:23:58 OSPF: [G6NKK-8C6DV] end_config: VTY:0x77fece082070, pending SET-CFG: 0
+2025/12/06 11:23:58 LDP: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:23:58 LDP: [G6NKK-8C6DV] end_config: VTY:0x791c4b10c610, pending SET-CFG: 0
+2025/12/06 11:23:58 ISIS: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:23:58 ISIS: [G6NKK-8C6DV] end_config: VTY:0x7874177ef1b0, pending SET-CFG: 0
+2025/12/06 11:23:58 STATIC: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:23:58 STATIC: [G6NKK-8C6DV] end_config: VTY:0x78a47d98d0c0, pending SET-CFG: 0
+2025/12/06 11:23:58 PATH: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:23:58 PATH: [G6NKK-8C6DV] end_config: VTY:0x7656dee5a190, pending SET-CFG: 0
+2025/12/06 11:23:59 ZEBRA: [MF0JM-QXVXH] Intf br20(4) bridge changed MAC address
+2025/12/06 11:23:59 ZEBRA: [YDG3W-JND95] FD Limit set: 1048576 is stupidly large.  Is this what you intended?  Consider using --limit-fds also limiting size to 100000
+2025/12/06 11:23:59 ZEBRA: [V98V0-MTWPF] client 84 says hello and bids fair to announce only bgp routes vrf=0
+2025/12/06 11:23:59 PATH: [NN4XW-E4M3V] IPv4 Router Id updated for VRF 0: 192.168.20.4
+2025/12/06 11:23:59 PATH: [NN4XW-E4M3V] IPv4 Router Id updated for VRF 0: 172.16.0.4
+2025/12/06 11:23:59 ZEBRA: [MF0JM-QXVXH] Intf br20(4) bridge changed MAC address
+2025/12/06 11:24:13 ZEBRA: [WPPMZ-G9797] if_zebra_speed_update: br20 old speed: 0 new speed: 10000
+2025/12/06 11:26:09 PATH: [NN4XW-E4M3V] IPv6 Router Id updated for VRF 0: fc00:0:4::1
+2025/12/06 11:26:09 BGP: [MXM8H-B025K][EC 33554452] eth1 [Error] Configured AFI/SAFIs do not overlap with received MP capabilities
+2025/12/06 11:26:12 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for IPv6 Unicast from eth1 in vrf default
+2025/12/06 11:26:12 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for IPv4 Unicast from eth1 in vrf default
+2025/12/06 11:26:12 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for L2VPN EVPN from eth1 in vrf default
+2025/12/06 11:26:24 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for IPv6 Unicast from eth2 in vrf default
+2025/12/06 11:26:24 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for IPv4 Unicast from eth2 in vrf default
+2025/12/06 11:26:24 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for L2VPN EVPN from eth2 in vrf default

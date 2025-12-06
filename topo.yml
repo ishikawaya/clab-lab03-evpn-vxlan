@@ -1,0 +1,137 @@
+name: lab03
+
+topology:
+  defaults:
+    kind: linux
+    image: quay.io/frrouting/frr:10.5.0
+    binds:
+      - ./params/daemons:/etc/frr/daemons
+      - ./params/vtysh.conf:/etc/frr/vtysh.conf
+    exec:
+      - ip link add mgmt type vrf table 90
+      - ip link set dev mgmt up
+      - ip link set dev eth0 master mgmt
+      
+  nodes:
+    r1:
+      binds:
+        - ./confs/r1.conf:/etc/frr/frr.conf
+        - ./logs/r1.log:/var/log/frr.log
+      exec:
+        - ip link add br10 type bridge
+        - ip link set dev br10 up
+        - ip link set eth3 master br10
+        - ip addr add 192.168.10.1/24 dev br10
+        - ip addr add 172.16.0.1/32 dev lo
+        - ip link add vxlan10 type vxlan id 10 dstport 4789 local 172.16.0.1        
+        - ip link set dev vxlan10 up
+        - ip link set dev vxlan10 master br10
+
+    r2:
+      binds:
+        - ./confs/r2.conf:/etc/frr/frr.conf
+        - ./logs/r2.log:/var/log/frr.log
+      exec:
+        - ip link add br20 type bridge
+        - ip link set dev br20 up
+        - ip link set eth3 master br20
+        - ip addr add 192.168.20.2/24 dev br20
+        - ip addr add 172.16.0.2/32 dev lo
+        - ip link add vxlan20 type vxlan id 20 dstport 4789 local 172.16.0.2
+        - ip link set dev vxlan20 up
+        - ip link set dev vxlan20 master br20
+    r3:
+      binds:
+        - ./confs/r3.conf:/etc/frr/frr.conf
+        - ./logs/r3.log:/var/log/frr.log
+      exec:
+        - ip link add br10 type bridge
+        - ip link set dev br10 up
+        - ip link set eth3 master br10
+        - ip addr add 192.168.10.3/24 dev br10
+        - ip addr add 172.16.0.3/32 dev lo
+        - ip link add vxlan10 type vxlan id 10 dstport 4789 local 172.16.0.3
+        - ip link set dev vxlan10 up
+        - ip link set dev vxlan10 master br10
+    r4:
+      binds:
+        - ./confs/r4.conf:/etc/frr/frr.conf
+        - ./logs/r4.log:/var/log/frr.log
+      exec:
+        - ip link add br20 type bridge
+        - ip link set dev br20 up
+        - ip link set eth3 master br20
+        - ip addr add 192.168.20.4/24 dev br20
+        - ip addr add 172.16.0.4/32 dev lo
+        - ip link add vxlan20 type vxlan id 20 dstport 4789 local 172.16.0.4
+        - ip link set dev vxlan20 up
+        - ip link set dev vxlan20 master br20
+    r5:
+      binds:
+        - ./confs/r5.conf:/etc/frr/frr.conf
+        - ./logs/r5.log:/var/log/frr.log
+      exec:
+        - ip link add br10 type bridge
+        - ip link set dev br10 up
+        - ip link set eth3 master br10
+        - ip addr add 192.168.10.5/24 dev br10
+        - ip addr add 172.16.0.5/32 dev lo
+        - ip link add vxlan10 type vxlan id 10 dstport 4789 local 172.16.0.5
+        - ip link set dev vxlan10 up
+        - ip link set dev vxlan10 master br10
+    r6:
+      binds:
+        - ./confs/r6.conf:/etc/frr/frr.conf
+        - ./logs/r6.log:/var/log/frr.log
+      exec:
+        - ip link add br20 type bridge
+        - ip link set dev br20 up
+        - ip link set eth3 master br20
+        - ip addr add 192.168.20.6/24 dev br20
+        - ip addr add 172.16.0.6/32 dev lo
+        - ip link add vxlan20 type vxlan id 20 dstport 4789 local 172.16.0.6
+        - ip link set dev vxlan20 up
+        - ip link set dev vxlan20 master br20
+    srv1:
+      kind: linux
+      image: alpine:latest
+      exec:
+        - ip addr add 192.168.10.128/24 dev eth1
+    srv2:
+      kind: linux
+      image: alpine:latest
+      exec:
+        - ip addr add 192.168.20.128/24 dev eth1
+    srv3:
+      kind: linux
+      image: alpine:latest
+      exec:
+        - ip addr add 192.168.10.129/24 dev eth1
+    srv4:
+      kind: linux
+      image: alpine:latest
+      exec:
+        - ip addr add 192.168.20.129/24 dev eth1
+    srv5:
+      kind: linux
+      image: alpine:latest
+      exec:
+        - ip addr add 192.168.10.130/24 dev eth1
+    srv6:
+      kind: linux
+      image: alpine:latest
+      exec:
+        - ip addr add 192.168.20.130/24 dev eth1
+  links:
+    - endpoints: ["r1:eth1", "r2:eth1"]
+    - endpoints: ["r3:eth1", "r4:eth1"]
+    - endpoints: ["r5:eth1", "r6:eth1"]
+    - endpoints: ["r2:eth2", "r3:eth2"]
+    - endpoints: ["r4:eth2", "r5:eth2"]
+    - endpoints: ["r6:eth2", "r1:eth2"]
+    - endpoints: ["r1:eth3", "srv1:eth1"]
+    - endpoints: ["r2:eth3", "srv2:eth1"]
+    - endpoints: ["r3:eth3", "srv3:eth1"]
+    - endpoints: ["r4:eth3", "srv4:eth1"]
+    - endpoints: ["r5:eth3", "srv5:eth1"]
+    - endpoints: ["r6:eth3", "srv6:eth1"]

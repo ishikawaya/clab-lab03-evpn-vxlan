@@ -1,0 +1,182 @@
+2025/12/06 08:28:21 OSPF: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:28:21 OSPF: [G6NKK-8C6DV] end_config: VTY:0x73e008c7f070, pending SET-CFG: 0
+2025/12/06 08:28:21 ISIS: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:28:21 ISIS: [G6NKK-8C6DV] end_config: VTY:0x7452ae6671b0, pending SET-CFG: 0
+2025/12/06 08:28:21 LDP: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:28:21 LDP: [G6NKK-8C6DV] end_config: VTY:0x72091b94b610, pending SET-CFG: 0
+2025/12/06 08:28:21 BGP: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:28:21 BGP: [G6NKK-8C6DV] end_config: VTY:0x7eea5e54a0b0, pending SET-CFG: 0
+2025/12/06 08:28:21 OSPF6: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:28:21 OSPF6: [G6NKK-8C6DV] end_config: VTY:0x76ba7d5ca050, pending SET-CFG: 0
+2025/12/06 08:28:21 STATIC: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:28:21 STATIC: [G6NKK-8C6DV] end_config: VTY:0x7bb79c5050c0, pending SET-CFG: 0
+2025/12/06 08:28:21 PATH: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:28:21 PATH: [G6NKK-8C6DV] end_config: VTY:0x795ec0a59190, pending SET-CFG: 0
+2025/12/06 08:28:35 ZEBRA: [WPPMZ-G9797] if_zebra_speed_update: br10 old speed: 0 new speed: 10000
+2025/12/06 08:29:22 LDP: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:29:22 LDP: [G6NKK-8C6DV] end_config: VTY:0x7f89be8b9610, pending SET-CFG: 0
+2025/12/06 08:29:22 BGP: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:29:22 BGP: [G6NKK-8C6DV] end_config: VTY:0x73692a58e0b0, pending SET-CFG: 0
+2025/12/06 08:29:22 OSPF: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:29:22 OSPF: [G6NKK-8C6DV] end_config: VTY:0x75bef45ef060, pending SET-CFG: 0
+2025/12/06 08:29:22 OSPF6: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:29:22 OSPF6: [G6NKK-8C6DV] end_config: VTY:0x7a4cd76ff050, pending SET-CFG: 0
+2025/12/06 08:29:22 ISIS: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:29:22 ISIS: [G6NKK-8C6DV] end_config: VTY:0x73d80b6521b0, pending SET-CFG: 0
+2025/12/06 08:29:22 PATH: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 08:29:22 PATH: [G6NKK-8C6DV] end_config: VTY:0x755feeeb5190, pending SET-CFG: 0
+2025/12/06 08:29:22 PATH: [NN4XW-E4M3V] IPv4 Router Id updated for VRF 0: 192.168.10.1
+2025/12/06 08:29:22 ZEBRA: [YDG3W-JND95] FD Limit set: 1048576 is stupidly large.  Is this what you intended?  Consider using --limit-fds also limiting size to 100000
+2025/12/06 08:29:22 ZEBRA: [V98V0-MTWPF] client 84 says hello and bids fair to announce only bgp routes vrf=0
+2025/12/06 08:29:22 PATH: [NN4XW-E4M3V] IPv4 Router Id updated for VRF 0: 172.16.0.1
+2025/12/06 08:29:37 ZEBRA: [WPPMZ-G9797] if_zebra_speed_update: br10 old speed: 0 new speed: 10000
+2025/12/06 10:00:48 PATH: [NN4XW-E4M3V] IPv6 Router Id updated for VRF 0: fc00:0:1::1
+2025/12/06 10:15:40 BGP: [H4B4J-DCW2R][EC 33554455] eth1 [Error] bgp_read_packet error: Connection reset by peer
+2025/12/06 10:15:40 BGP: [MVZKX-EG443][EC 33554452] bgp_process_packet: BGP OPEN receipt failed for peer: eth1
+2025/12/06 10:15:42 BGP: [MVZKX-EG443][EC 33554452] bgp_process_packet: BGP OPEN receipt failed for peer: eth1
+2025/12/06 10:15:45 BGP: [MVZKX-EG443][EC 33554452] bgp_process_packet: BGP OPEN receipt failed for peer: eth1
+2025/12/06 10:15:46 BGP: [MVZKX-EG443][EC 33554452] bgp_process_packet: BGP OPEN receipt failed for peer: eth1
+2025/12/06 10:15:47 BGP: [MVZKX-EG443][EC 33554452] bgp_process_packet: BGP OPEN receipt failed for peer: eth1
+2025/12/06 10:15:51 BGP: [MVZKX-EG443][EC 33554452] bgp_process_packet: BGP OPEN receipt failed for peer: eth1
+2025/12/06 10:15:54 BGP: [MVZKX-EG443][EC 33554452] bgp_process_packet: BGP OPEN receipt failed for peer: eth1
+2025/12/06 10:15:59 BGP: [MVZKX-EG443][EC 33554452] bgp_process_packet: BGP OPEN receipt failed for peer: eth1
+2025/12/06 10:16:10 BGP: [MVZKX-EG443][EC 33554452] bgp_process_packet: BGP OPEN receipt failed for peer: eth1
+2025/12/06 10:16:15 BGP: [MVZKX-EG443][EC 33554452] bgp_process_packet: BGP OPEN receipt failed for peer: eth1
+2025/12/06 10:16:53 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for IPv4 Unicast from eth1 in vrf default
+2025/12/06 10:16:53 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for IPv6 Unicast from eth1 in vrf default
+2025/12/06 10:16:53 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for L2VPN EVPN from eth1 in vrf default
+2025/12/06 10:51:08 BGP: [H4B4J-DCW2R][EC 33554455] eth2 [Error] bgp_read_packet error: Connection reset by peer
+2025/12/06 10:51:08 BGP: [W2RX6-XPYWY] eth2 AddPath Capability length error: got 0, expected at least 4
+2025/12/06 10:51:08 BGP: [MVZKX-EG443][EC 33554452] bgp_process_packet: BGP OPEN receipt failed for peer: eth2
+2025/12/06 10:51:13 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for IPv4 Unicast from eth2 in vrf default
+2025/12/06 10:51:13 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for IPv6 Unicast from eth2 in vrf default
+2025/12/06 10:51:13 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for L2VPN EVPN from eth2 in vrf default
+2025/12/06 10:55:26 ZEBRA: [SWQK6-6JY63][EC 4043309074] 0:254:fc00:0:4::1/128: Failed to enqueue dataplane install
+2025/12/06 10:55:26 ZEBRA: [SWQK6-6JY63][EC 4043309074] 0:254:fc00:0:3::1/128: Failed to enqueue dataplane install
+2025/12/06 10:55:26 ZEBRA: [SWQK6-6JY63][EC 4043309074] 0:254:fc00:0:2::1/128: Failed to enqueue dataplane install
+2025/12/06 10:55:26 ZEBRA: [SGA3S-A2CXK][EC 4043309128] default:0: IF 62 RA disable client bgp - interface unknown
+2025/12/06 10:55:26 ZEBRA: [MF0JM-QXVXH] Intf br10(4) bridge changed MAC address
+2025/12/06 10:55:26 ZEBRA: [WPPMZ-G9797] if_zebra_speed_update: br10 old speed: 10000 new speed: 0
+2025/12/06 10:55:26 ZEBRA: [SGA3S-A2CXK][EC 4043309128] default:0: IF 69 RA disable client bgp - interface unknown
+2025/12/06 10:55:26 ZEBRA: [SWQK6-6JY63][EC 4043309074] 0:254:fc00:0:5::1/128: Failed to enqueue dataplane install
+2025/12/06 10:55:26 ZEBRA: [SWQK6-6JY63][EC 4043309074] 0:254:fc00:0:6::1/128: Failed to enqueue dataplane install
+2025/12/06 10:57:24 OSPF: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 10:57:24 OSPF: [G6NKK-8C6DV] end_config: VTY:0x70578202b070, pending SET-CFG: 0
+2025/12/06 10:57:24 LDP: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 10:57:24 LDP: [G6NKK-8C6DV] end_config: VTY:0x76e351090610, pending SET-CFG: 0
+2025/12/06 10:57:24 OSPF6: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 10:57:24 OSPF6: [G6NKK-8C6DV] end_config: VTY:0x7492762d0050, pending SET-CFG: 0
+2025/12/06 10:57:24 ISIS: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 10:57:24 ISIS: [G6NKK-8C6DV] end_config: VTY:0x78b1644051b0, pending SET-CFG: 0
+2025/12/06 10:57:24 BGP: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 10:57:24 BGP: [G6NKK-8C6DV] end_config: VTY:0x7c7cf6c170b0, pending SET-CFG: 0
+2025/12/06 10:57:24 PATH: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 10:57:24 PATH: [G6NKK-8C6DV] end_config: VTY:0x7e2172b6e190, pending SET-CFG: 0
+2025/12/06 10:57:24 PATH: [NN4XW-E4M3V] IPv4 Router Id updated for VRF 0: 172.16.0.1
+2025/12/06 10:57:24 PATH: [NN4XW-E4M3V] IPv6 Router Id updated for VRF 0: fc00:0:1::1
+2025/12/06 10:57:24 ZEBRA: [MF0JM-QXVXH] Intf br10(4) bridge changed MAC address
+2025/12/06 10:57:24 ZEBRA: [QGWPP-XPTHX][EC 100663299] eth1(117): Tx RA failed, socket 12 error 99 (Address not available)
+2025/12/06 10:57:25 ZEBRA: [YDG3W-JND95] FD Limit set: 1048576 is stupidly large.  Is this what you intended?  Consider using --limit-fds also limiting size to 100000
+2025/12/06 10:57:25 ZEBRA: [V98V0-MTWPF] client 84 says hello and bids fair to announce only bgp routes vrf=0
+2025/12/06 10:57:25 ZEBRA: [MF0JM-QXVXH] Intf br10(4) bridge changed MAC address
+2025/12/06 10:57:25 ZEBRA: [QGWPP-XPTHX][EC 100663299] eth1(117): Tx RA failed, socket 12 error 99 (Address not available)
+2025/12/06 10:57:25 ZEBRA: [QGWPP-XPTHX][EC 100663299] eth2(121): Tx RA failed, socket 12 error 99 (Address not available)
+2025/12/06 10:57:39 ZEBRA: [WPPMZ-G9797] if_zebra_speed_update: br10 old speed: 0 new speed: 10000
+2025/12/06 10:58:30 BGP: [J9K4Q-T8STY][EC 33554466] eth1 [FSM] Failure handling event BGP_Start in state Idle, prior events BGP_Stop, (null), fd -1, last reset: Waiting for peer address
+2025/12/06 10:58:30 BGP: [J9K4Q-T8STY][EC 33554466] eth2 [FSM] Failure handling event BGP_Start in state Idle, prior events BGP_Stop, (null), fd -1, last reset: Waiting for peer address
+2025/12/06 10:59:10 BGP: [H4B4J-DCW2R][EC 33554455] eth1 [Error] bgp_read_packet error: Connection reset by peer
+2025/12/06 10:59:10 BGP: [W2RX6-XPYWY] eth1 AddPath Capability length error: got 0, expected at least 4
+2025/12/06 10:59:10 BGP: [MVZKX-EG443][EC 33554452] bgp_process_packet: BGP OPEN receipt failed for peer: eth1
+2025/12/06 10:59:15 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for IPv6 Unicast from eth1 in vrf default
+2025/12/06 10:59:15 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for L2VPN EVPN from eth1 in vrf default
+2025/12/06 11:15:25 ZEBRA: [SWQK6-6JY63][EC 4043309074] 0:254:fc00:0:4::1/128: Failed to enqueue dataplane install
+2025/12/06 11:15:25 ZEBRA: [SWQK6-6JY63][EC 4043309074] 0:254:fc00:0:3::1/128: Failed to enqueue dataplane install
+2025/12/06 11:15:25 ZEBRA: [SWQK6-6JY63][EC 4043309074] 0:254:fc00:0:2::1/128: Failed to enqueue dataplane install
+2025/12/06 11:15:25 ZEBRA: [SGA3S-A2CXK][EC 4043309128] default:0: IF 117 RA disable client bgp - interface unknown
+2025/12/06 11:15:25 ZEBRA: [WPPMZ-G9797] if_zebra_speed_update: br10 old speed: 10000 new speed: 0
+2025/12/06 11:15:25 ZEBRA: [SGA3S-A2CXK][EC 4043309128] default:0: IF 121 RA disable client bgp - interface unknown
+2025/12/06 11:18:19 OSPF: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:18:19 OSPF: [G6NKK-8C6DV] end_config: VTY:0x76034db85070, pending SET-CFG: 0
+2025/12/06 11:18:19 OSPF6: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:18:19 OSPF6: [G6NKK-8C6DV] end_config: VTY:0x7b535a087050, pending SET-CFG: 0
+2025/12/06 11:18:19 LDP: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:18:19 LDP: [G6NKK-8C6DV] end_config: VTY:0x7b077fd5d610, pending SET-CFG: 0
+2025/12/06 11:18:19 ZEBRA: [QGWPP-XPTHX][EC 100663299] eth1(176): Tx RA failed, socket 12 error 101 (Network unreachable)
+2025/12/06 11:18:19 ZEBRA: [QGWPP-XPTHX][EC 100663299] eth2(180): Tx RA failed, socket 12 error 99 (Address not available)
+2025/12/06 11:18:19 ISIS: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:18:19 ISIS: [G6NKK-8C6DV] end_config: VTY:0x79a91a30d1b0, pending SET-CFG: 0
+2025/12/06 11:18:19 BGP: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:18:19 BGP: [G6NKK-8C6DV] end_config: VTY:0x7268e8d240b0, pending SET-CFG: 0
+2025/12/06 11:18:19 PATH: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:18:19 PATH: [G6NKK-8C6DV] end_config: VTY:0x74e5f5555190, pending SET-CFG: 0
+2025/12/06 11:18:19 STATIC: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:18:19 STATIC: [G6NKK-8C6DV] end_config: VTY:0x76e3f7c320c0, pending SET-CFG: 0
+2025/12/06 11:18:19 ZEBRA: [MF0JM-QXVXH] Intf br10(4) bridge changed MAC address
+2025/12/06 11:18:19 ZEBRA: [YDG3W-JND95] FD Limit set: 1048576 is stupidly large.  Is this what you intended?  Consider using --limit-fds also limiting size to 100000
+2025/12/06 11:18:19 ZEBRA: [V98V0-MTWPF] client 84 says hello and bids fair to announce only bgp routes vrf=0
+2025/12/06 11:18:19 ZEBRA: [QGWPP-XPTHX][EC 100663299] eth1(176): Tx RA failed, socket 12 error 99 (Address not available)
+2025/12/06 11:18:19 ZEBRA: [MF0JM-QXVXH] Intf br10(4) bridge changed MAC address
+2025/12/06 11:18:20 ZEBRA: [QGWPP-XPTHX][EC 100663299] eth1(176): Tx RA failed, socket 12 error 99 (Address not available)
+2025/12/06 11:18:20 ZEBRA: [QGWPP-XPTHX][EC 100663299] eth2(180): Tx RA failed, socket 12 error 99 (Address not available)
+2025/12/06 11:18:20 ZEBRA: [QGWPP-XPTHX][EC 100663299] eth1(176): Tx RA failed, socket 12 error 99 (Address not available)
+2025/12/06 11:18:21 ZEBRA: [QGWPP-XPTHX][EC 100663299] eth1(176): Tx RA failed, socket 12 error 99 (Address not available)
+2025/12/06 11:18:33 ZEBRA: [WPPMZ-G9797] if_zebra_speed_update: br10 old speed: 0 new speed: 10000
+2025/12/06 11:18:48 BGP: [J9K4Q-T8STY][EC 33554466] eth1 [FSM] Failure handling event BGP_Start in state Idle, prior events BGP_Stop, (null), fd -1, last reset: Waiting for peer address
+2025/12/06 11:18:48 BGP: [J9K4Q-T8STY][EC 33554466] eth2 [FSM] Failure handling event BGP_Start in state Idle, prior events BGP_Stop, (null), fd -1, last reset: Waiting for peer address
+2025/12/06 11:19:29 BGP: [H4B4J-DCW2R][EC 33554455] eth1 [Error] bgp_read_packet error: Connection reset by peer
+2025/12/06 11:19:29 BGP: [W2RX6-XPYWY] eth1 AddPath Capability length error: got 0, expected at least 4
+2025/12/06 11:19:29 BGP: [MVZKX-EG443][EC 33554452] bgp_process_packet: BGP OPEN receipt failed for peer: eth1
+2025/12/06 11:19:32 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for IPv6 Unicast from eth1 in vrf default
+2025/12/06 11:19:32 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for IPv4 Unicast from eth1 in vrf default
+2025/12/06 11:19:32 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for L2VPN EVPN from eth1 in vrf default
+2025/12/06 11:23:52 ZEBRA: [SGA3S-A2CXK][EC 4043309128] default:0: IF 176 RA disable client bgp - interface unknown
+2025/12/06 11:23:52 ZEBRA: [SWQK6-6JY63][EC 4043309074] 0:254:fc00:0:3::1/128: Failed to enqueue dataplane install
+2025/12/06 11:23:52 ZEBRA: [SWQK6-6JY63][EC 4043309074] 0:254:fc00:0:2::1/128: Failed to enqueue dataplane install
+2025/12/06 11:23:52 ZEBRA: [WPPMZ-G9797] if_zebra_speed_update: br10 old speed: 10000 new speed: 0
+2025/12/06 11:23:52 ZEBRA: [SGA3S-A2CXK][EC 4043309128] default:0: IF 180 RA disable client bgp - interface unknown
+2025/12/06 11:23:59 OSPF6: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:23:59 OSPF6: [G6NKK-8C6DV] end_config: VTY:0x740ac11d8050, pending SET-CFG: 0
+2025/12/06 11:23:59 ISIS: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:23:59 ISIS: [G6NKK-8C6DV] end_config: VTY:0x7602c01691b0, pending SET-CFG: 0
+2025/12/06 11:23:59 OSPF: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:23:59 OSPF: [G6NKK-8C6DV] end_config: VTY:0x78342ed22070, pending SET-CFG: 0
+2025/12/06 11:23:59 LDP: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:23:59 LDP: [G6NKK-8C6DV] end_config: VTY:0x7df0fc05d610, pending SET-CFG: 0
+2025/12/06 11:23:59 ZEBRA: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:23:59 ZEBRA: [G6NKK-8C6DV] end_config: VTY:0x72b19c2e3c80, pending SET-CFG: 0
+2025/12/06 11:23:59 BGP: [YTHK0-FSPPJ][EC 33554500] sendmsg_nexthop: zclient_send_message() failed
+2025/12/06 11:23:59 STATIC: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:23:59 STATIC: [G6NKK-8C6DV] end_config: VTY:0x7323120ca0c0, pending SET-CFG: 0
+2025/12/06 11:23:59 BGP: [YTHK0-FSPPJ][EC 33554500] sendmsg_nexthop: zclient_send_message() failed
+2025/12/06 11:23:59 BGP: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:23:59 BGP: [G6NKK-8C6DV] end_config: VTY:0x71c891e5e0b0, pending SET-CFG: 0
+2025/12/06 11:23:59 PATH: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00
+2025/12/06 11:23:59 PATH: [G6NKK-8C6DV] end_config: VTY:0x7b00035b9190, pending SET-CFG: 0
+2025/12/06 11:23:59 ZEBRA: [YDG3W-JND95] FD Limit set: 1048576 is stupidly large.  Is this what you intended?  Consider using --limit-fds also limiting size to 100000
+2025/12/06 11:23:59 ZEBRA: [V98V0-MTWPF] client 74 says hello and bids fair to announce only bgp routes vrf=0
+2025/12/06 11:23:59 ZEBRA: [YDG3W-JND95] FD Limit set: 1048576 is stupidly large.  Is this what you intended?  Consider using --limit-fds also limiting size to 100000
+2025/12/06 11:23:59 ZEBRA: [YDG3W-JND95] FD Limit set: 1048576 is stupidly large.  Is this what you intended?  Consider using --limit-fds also limiting size to 100000
+2025/12/06 11:23:59 ZEBRA: [V98V0-MTWPF] client 79 says hello and bids fair to announce only bgp routes vrf=0
+2025/12/06 11:23:59 ZEBRA: [V98V0-MTWPF] client 84 says hello and bids fair to announce only vnc routes vrf=0
+2025/12/06 11:23:59 ZEBRA: [QGWPP-XPTHX][EC 100663299] eth1(216): Tx RA failed, socket 12 error 101 (Network unreachable)
+2025/12/06 11:23:59 ZEBRA: [QGWPP-XPTHX][EC 100663299] eth2(221): Tx RA failed, socket 12 error 101 (Network unreachable)
+2025/12/06 11:23:59 ZEBRA: [MF0JM-QXVXH] Intf br10(4) bridge changed MAC address
+2025/12/06 11:23:59 ZEBRA: [QGWPP-XPTHX][EC 100663299] eth1(216): Tx RA failed, socket 12 error 101 (Network unreachable)
+2025/12/06 11:23:59 ZEBRA: [QGWPP-XPTHX][EC 100663299] eth2(221): Tx RA failed, socket 12 error 101 (Network unreachable)
+2025/12/06 11:23:59 ZEBRA: [QGWPP-XPTHX][EC 100663299] eth1(216): Tx RA failed, socket 12 error 99 (Address not available)
+2025/12/06 11:24:00 ZEBRA: [QGWPP-XPTHX][EC 100663299] eth2(221): Tx RA failed, socket 12 error 99 (Address not available)
+2025/12/06 11:24:00 ZEBRA: [QGWPP-XPTHX][EC 100663299] eth1(216): Tx RA failed, socket 12 error 99 (Address not available)
+2025/12/06 11:24:00 ZEBRA: [QGWPP-XPTHX][EC 100663299] eth2(221): Tx RA failed, socket 12 error 99 (Address not available)
+2025/12/06 11:24:01 ZEBRA: [QGWPP-XPTHX][EC 100663299] eth1(216): Tx RA failed, socket 12 error 99 (Address not available)
+2025/12/06 11:24:01 ZEBRA: [QGWPP-XPTHX][EC 100663299] eth1(216): Tx RA failed, socket 12 error 99 (Address not available)
+2025/12/06 11:24:14 ZEBRA: [WPPMZ-G9797] if_zebra_speed_update: br10 old speed: 0 new speed: 10000
+2025/12/06 11:24:59 BGP: [J9K4Q-T8STY][EC 33554466] eth1 [FSM] Failure handling event BGP_Start in state Idle, prior events BGP_Stop, (null), fd -1, last reset: Waiting for peer address
+2025/12/06 11:24:59 BGP: [J9K4Q-T8STY][EC 33554466] eth2 [FSM] Failure handling event BGP_Start in state Idle, prior events BGP_Stop, (null), fd -1, last reset: Waiting for peer address
+2025/12/06 11:25:29 BGP: [H4B4J-DCW2R][EC 33554455] eth1 [Error] bgp_read_packet error: Connection reset by peer
+2025/12/06 11:25:36 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for IPv6 Unicast from eth1 in vrf default
+2025/12/06 11:25:36 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for IPv4 Unicast from eth1 in vrf default
+2025/12/06 11:25:36 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for L2VPN EVPN from eth1 in vrf default
+2025/12/06 11:26:28 BGP: [H4B4J-DCW2R][EC 33554455] eth2 [Error] bgp_read_packet error: Connection reset by peer
+2025/12/06 11:26:38 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for IPv6 Unicast from eth2 in vrf default
+2025/12/06 11:26:38 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for IPv4 Unicast from eth2 in vrf default
+2025/12/06 11:26:38 BGP: [M59KS-A3ZXZ] bgp_update_receive_eor: rcvd End-of-RIB for L2VPN EVPN from eth2 in vrf default
